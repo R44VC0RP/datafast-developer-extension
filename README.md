@@ -10,7 +10,7 @@ A Chrome extension that helps developers control Datafast Analytics tracking dur
    - Arc: `arc://extensions`
 3. Enable "Developer mode" in the top right corner
 4. Click "Load unpacked" button
-![image](https://github.com/user-attachments/assets/96af3ea7-5a51-4bf3-ac50-a9e66daf55df)
+5. ![image](https://github.com/user-attachments/assets/96af3ea7-5a51-4bf3-ac50-a9e66daf55df)
 6. Select the directory containing the extension files
 
 ## Development Setup
