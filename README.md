@@ -4,13 +4,14 @@ A Chrome extension that helps developers control Datafast Analytics tracking dur
 
 ## Installation
 
-1. Download or clone this repository
+1. Download this repository as a ZIP file and extract it to a directory of your choosing.
 2. Open Chrome/Arc and navigate to:
    - Chrome: `chrome://extensions`
    - Arc: `arc://extensions`
 3. Enable "Developer mode" in the top right corner
 4. Click "Load unpacked" button
-5. Select the directory containing the extension files
+![image](https://github.com/user-attachments/assets/96af3ea7-5a51-4bf3-ac50-a9e66daf55df)
+6. Select the directory containing the extension files
 
 ## Development Setup
 
