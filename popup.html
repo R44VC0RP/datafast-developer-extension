@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Datafast Developer Disabler</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="w-80 p-4 bg-gray-100">
+  <div class="space-y-4">
+    <h1 class="text-xl font-bold text-gray-800">Datafast Developer Disabler</h1>
+    
+    <div class="space-y-2 p-3 bg-white rounded-lg shadow-sm">
+      <label class="flex items-center space-x-2">
+        <input type="checkbox" id="toggleSwitch" 
+               class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+        <span class="text-gray-700 font-medium">Disable Tracking</span>
+      </label>
+
+      <label class="flex items-center space-x-2">
+        <input type="checkbox" id="localhostDefault" 
+               class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+        <span class="text-gray-700">Enable by default for localhost</span>
+      </label>
+    </div>
+
+    <div class="space-y-2">
+      <h2 class="text-lg font-semibold text-gray-800">Disabled Sites</h2>
+      <div id="sitesList" class="space-y-2"></div>
+      
+      <div class="flex space-x-2">
+        <input type="text" id="newSite" placeholder="Enter domain (e.g., example.com)" 
+               class="flex-1 p-2 border rounded-md">
+        <button id="addSite" 
+                class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600">
+          Add
+        </button>
+      </div>
+    </div>
+
+    <div class="mt-6 pt-4 border-t border-gray-200">
+      <a href="https://datafa.st/?via=ryan" 
+         target="_blank" 
+         class="text-sm text-blue-600 hover:text-blue-800 flex items-center justify-center">
+        Check out DataFast Analytics
+      </a>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
